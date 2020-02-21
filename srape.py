@@ -1,8 +1,8 @@
 import requests
 from lxml import html
 
-USERNAME = "client UN" #get from html elements?
-PASSWORD = "client PW" 
+USERNAME = "35308" #get from html elements?
+PASSWORD = "Mocha2003" 
 
 LOGIN_URL = "https://members.bellevueclub.com/?returnUrl=/Departments/Tennis/"
 URL = "https://BC.GameTime.net/scheduling/index/index/sport/1"
@@ -24,3 +24,6 @@ def main():
 
     # Perform login
     result = session_requests.post(LOGIN_URL, data = payload, headers = dict(referer = LOGIN_URL))
+
+print(1)
+
