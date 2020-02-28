@@ -1,7 +1,7 @@
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/Computer_Science_2.jpg');
+    background-image: url('/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
