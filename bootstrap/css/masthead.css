@@ -6,3 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  #sticky-footer {
+    flex-shrink: none;
+  }
